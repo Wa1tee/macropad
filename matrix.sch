@@ -1,0 +1,705 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF1636
+P 4250 2900
+AR Path="/5FDF1636" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF1636" Ref="SW1"  Part="1" 
+F 0 "SW1" H 4250 3185 50  0000 C CNN
+F 1 "SW_Push" H 4250 3094 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4250 3100 50  0001 C CNN
+F 3 "~" H 4250 3100 50  0001 C CNN
+	1    4250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF163C
+P 4250 3400
+AR Path="/5FDF163C" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF163C" Ref="SW5"  Part="1" 
+F 0 "SW5" H 4250 3685 50  0000 C CNN
+F 1 "SW_Push" H 4250 3594 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4250 3600 50  0001 C CNN
+F 3 "~" H 4250 3600 50  0001 C CNN
+	1    4250 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF1642
+P 4250 3900
+AR Path="/5FDF1642" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF1642" Ref="SW9"  Part="1" 
+F 0 "SW9" H 4250 4185 50  0000 C CNN
+F 1 "SW_Push" H 4250 4094 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4250 4100 50  0001 C CNN
+F 3 "~" H 4250 4100 50  0001 C CNN
+	1    4250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF1648
+P 4250 4400
+AR Path="/5FDF1648" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF1648" Ref="SW13"  Part="1" 
+F 0 "SW13" H 4250 4685 50  0000 C CNN
+F 1 "SW_Push" H 4250 4594 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4250 4600 50  0001 C CNN
+F 3 "~" H 4250 4600 50  0001 C CNN
+	1    4250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF164E
+P 4250 4900
+AR Path="/5FDF164E" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF164E" Ref="SW17"  Part="1" 
+F 0 "SW17" H 4250 5185 50  0000 C CNN
+F 1 "SW_Push" H 4250 5094 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4250 5100 50  0001 C CNN
+F 3 "~" H 4250 5100 50  0001 C CNN
+	1    4250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF1654
+P 5300 2900
+AR Path="/5FDF1654" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF1654" Ref="SW2"  Part="1" 
+F 0 "SW2" H 5300 3185 50  0000 C CNN
+F 1 "SW_Push" H 5300 3094 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 5300 3100 50  0001 C CNN
+F 3 "~" H 5300 3100 50  0001 C CNN
+	1    5300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF165A
+P 5300 3400
+AR Path="/5FDF165A" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF165A" Ref="SW6"  Part="1" 
+F 0 "SW6" H 5300 3685 50  0000 C CNN
+F 1 "SW_Push" H 5300 3594 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 5300 3600 50  0001 C CNN
+F 3 "~" H 5300 3600 50  0001 C CNN
+	1    5300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF1660
+P 5300 3900
+AR Path="/5FDF1660" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF1660" Ref="SW10"  Part="1" 
+F 0 "SW10" H 5300 4185 50  0000 C CNN
+F 1 "SW_Push" H 5300 4094 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 5300 4100 50  0001 C CNN
+F 3 "~" H 5300 4100 50  0001 C CNN
+	1    5300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF1666
+P 5300 4400
+AR Path="/5FDF1666" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF1666" Ref="SW14"  Part="1" 
+F 0 "SW14" H 5300 4685 50  0000 C CNN
+F 1 "SW_Push" H 5300 4594 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 5300 4600 50  0001 C CNN
+F 3 "~" H 5300 4600 50  0001 C CNN
+	1    5300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF166C
+P 5300 4900
+AR Path="/5FDF166C" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF166C" Ref="SW18"  Part="1" 
+F 0 "SW18" H 5300 5185 50  0000 C CNN
+F 1 "SW_Push" H 5300 5094 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 5300 5100 50  0001 C CNN
+F 3 "~" H 5300 5100 50  0001 C CNN
+	1    5300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF1672
+P 6300 4900
+AR Path="/5FDF1672" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF1672" Ref="SW19"  Part="1" 
+F 0 "SW19" H 6300 5185 50  0000 C CNN
+F 1 "SW_Push" H 6300 5094 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6300 5100 50  0001 C CNN
+F 3 "~" H 6300 5100 50  0001 C CNN
+	1    6300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF1678
+P 6300 4400
+AR Path="/5FDF1678" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF1678" Ref="SW15"  Part="1" 
+F 0 "SW15" H 6300 4685 50  0000 C CNN
+F 1 "SW_Push" H 6300 4594 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6300 4600 50  0001 C CNN
+F 3 "~" H 6300 4600 50  0001 C CNN
+	1    6300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF167E
+P 6300 3900
+AR Path="/5FDF167E" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF167E" Ref="SW11"  Part="1" 
+F 0 "SW11" H 6300 4185 50  0000 C CNN
+F 1 "SW_Push" H 6300 4094 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6300 4100 50  0001 C CNN
+F 3 "~" H 6300 4100 50  0001 C CNN
+	1    6300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF1684
+P 6300 3400
+AR Path="/5FDF1684" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF1684" Ref="SW7"  Part="1" 
+F 0 "SW7" H 6300 3685 50  0000 C CNN
+F 1 "SW_Push" H 6300 3594 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6300 3600 50  0001 C CNN
+F 3 "~" H 6300 3600 50  0001 C CNN
+	1    6300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF168A
+P 6300 2900
+AR Path="/5FDF168A" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF168A" Ref="SW3"  Part="1" 
+F 0 "SW3" H 6300 3185 50  0000 C CNN
+F 1 "SW_Push" H 6300 3094 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6300 3100 50  0001 C CNN
+F 3 "~" H 6300 3100 50  0001 C CNN
+	1    6300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF1690
+P 7250 2900
+AR Path="/5FDF1690" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF1690" Ref="SW4"  Part="1" 
+F 0 "SW4" H 7250 3185 50  0000 C CNN
+F 1 "SW_Push" H 7250 3094 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7250 3100 50  0001 C CNN
+F 3 "~" H 7250 3100 50  0001 C CNN
+	1    7250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF1696
+P 7250 3400
+AR Path="/5FDF1696" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF1696" Ref="SW8"  Part="1" 
+F 0 "SW8" H 7250 3685 50  0000 C CNN
+F 1 "SW_Push" H 7250 3594 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7250 3600 50  0001 C CNN
+F 3 "~" H 7250 3600 50  0001 C CNN
+	1    7250 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF169C
+P 7250 3900
+AR Path="/5FDF169C" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF169C" Ref="SW12"  Part="1" 
+F 0 "SW12" H 7250 4185 50  0000 C CNN
+F 1 "SW_Push" H 7250 4094 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7250 4100 50  0001 C CNN
+F 3 "~" H 7250 4100 50  0001 C CNN
+	1    7250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF16A2
+P 7250 4400
+AR Path="/5FDF16A2" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF16A2" Ref="SW16"  Part="1" 
+F 0 "SW16" H 7250 4685 50  0000 C CNN
+F 1 "SW_Push" H 7250 4594 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7250 4600 50  0001 C CNN
+F 3 "~" H 7250 4600 50  0001 C CNN
+	1    7250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FDF16A8
+P 7250 4900
+AR Path="/5FDF16A8" Ref="SW?"  Part="1" 
+AR Path="/5FDDF609/5FDF16A8" Ref="SW20"  Part="1" 
+F 0 "SW20" H 7250 5185 50  0000 C CNN
+F 1 "SW_Push" H 7250 5094 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7250 5100 50  0001 C CNN
+F 3 "~" H 7250 5100 50  0001 C CNN
+	1    7250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF16AE
+P 3900 2900
+AR Path="/5FDF16AE" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF16AE" Ref="D1"  Part="1" 
+F 0 "D1" H 3900 3117 50  0000 C CNN
+F 1 "D" H 3900 3026 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 2900 50  0001 C CNN
+F 3 "~" H 3900 2900 50  0001 C CNN
+	1    3900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF16B4
+P 3900 3400
+AR Path="/5FDF16B4" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF16B4" Ref="D5"  Part="1" 
+F 0 "D5" H 3900 3617 50  0000 C CNN
+F 1 "D" H 3900 3526 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 3400 50  0001 C CNN
+F 3 "~" H 3900 3400 50  0001 C CNN
+	1    3900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF16BA
+P 3900 3900
+AR Path="/5FDF16BA" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF16BA" Ref="D9"  Part="1" 
+F 0 "D9" H 3900 4117 50  0000 C CNN
+F 1 "D" H 3900 4026 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 3900 50  0001 C CNN
+F 3 "~" H 3900 3900 50  0001 C CNN
+	1    3900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF16C0
+P 3900 4400
+AR Path="/5FDF16C0" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF16C0" Ref="D13"  Part="1" 
+F 0 "D13" H 3900 4617 50  0000 C CNN
+F 1 "D" H 3900 4526 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 4400 50  0001 C CNN
+F 3 "~" H 3900 4400 50  0001 C CNN
+	1    3900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF16C6
+P 3900 4900
+AR Path="/5FDF16C6" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF16C6" Ref="D17"  Part="1" 
+F 0 "D17" H 3900 5117 50  0000 C CNN
+F 1 "D" H 3900 5026 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 4900 50  0001 C CNN
+F 3 "~" H 3900 4900 50  0001 C CNN
+	1    3900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF16CC
+P 4950 2900
+AR Path="/5FDF16CC" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF16CC" Ref="D2"  Part="1" 
+F 0 "D2" H 4950 3117 50  0000 C CNN
+F 1 "D" H 4950 3026 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4950 2900 50  0001 C CNN
+F 3 "~" H 4950 2900 50  0001 C CNN
+	1    4950 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF16D2
+P 4950 3400
+AR Path="/5FDF16D2" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF16D2" Ref="D6"  Part="1" 
+F 0 "D6" H 4950 3617 50  0000 C CNN
+F 1 "D" H 4950 3526 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4950 3400 50  0001 C CNN
+F 3 "~" H 4950 3400 50  0001 C CNN
+	1    4950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF16D8
+P 4950 3900
+AR Path="/5FDF16D8" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF16D8" Ref="D10"  Part="1" 
+F 0 "D10" H 4950 4117 50  0000 C CNN
+F 1 "D" H 4950 4026 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4950 3900 50  0001 C CNN
+F 3 "~" H 4950 3900 50  0001 C CNN
+	1    4950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF16DE
+P 4950 4400
+AR Path="/5FDF16DE" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF16DE" Ref="D14"  Part="1" 
+F 0 "D14" H 4950 4617 50  0000 C CNN
+F 1 "D" H 4950 4526 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4950 4400 50  0001 C CNN
+F 3 "~" H 4950 4400 50  0001 C CNN
+	1    4950 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF16E4
+P 4950 4900
+AR Path="/5FDF16E4" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF16E4" Ref="D18"  Part="1" 
+F 0 "D18" H 4950 5117 50  0000 C CNN
+F 1 "D" H 4950 5026 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4950 4900 50  0001 C CNN
+F 3 "~" H 4950 4900 50  0001 C CNN
+	1    4950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF16EA
+P 5950 2900
+AR Path="/5FDF16EA" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF16EA" Ref="D3"  Part="1" 
+F 0 "D3" H 5950 3117 50  0000 C CNN
+F 1 "D" H 5950 3026 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5950 2900 50  0001 C CNN
+F 3 "~" H 5950 2900 50  0001 C CNN
+	1    5950 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF16F0
+P 5950 3400
+AR Path="/5FDF16F0" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF16F0" Ref="D7"  Part="1" 
+F 0 "D7" H 5950 3617 50  0000 C CNN
+F 1 "D" H 5950 3526 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5950 3400 50  0001 C CNN
+F 3 "~" H 5950 3400 50  0001 C CNN
+	1    5950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF16F6
+P 5950 3900
+AR Path="/5FDF16F6" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF16F6" Ref="D11"  Part="1" 
+F 0 "D11" H 5950 4117 50  0000 C CNN
+F 1 "D" H 5950 4026 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5950 3900 50  0001 C CNN
+F 3 "~" H 5950 3900 50  0001 C CNN
+	1    5950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF16FC
+P 5950 4400
+AR Path="/5FDF16FC" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF16FC" Ref="D15"  Part="1" 
+F 0 "D15" H 5950 4617 50  0000 C CNN
+F 1 "D" H 5950 4526 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5950 4400 50  0001 C CNN
+F 3 "~" H 5950 4400 50  0001 C CNN
+	1    5950 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF1702
+P 5950 4900
+AR Path="/5FDF1702" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF1702" Ref="D19"  Part="1" 
+F 0 "D19" H 5950 5117 50  0000 C CNN
+F 1 "D" H 5950 5026 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5950 4900 50  0001 C CNN
+F 3 "~" H 5950 4900 50  0001 C CNN
+	1    5950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF1708
+P 6900 2900
+AR Path="/5FDF1708" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF1708" Ref="D4"  Part="1" 
+F 0 "D4" H 6900 3117 50  0000 C CNN
+F 1 "D" H 6900 3026 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6900 2900 50  0001 C CNN
+F 3 "~" H 6900 2900 50  0001 C CNN
+	1    6900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF170E
+P 6900 3400
+AR Path="/5FDF170E" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF170E" Ref="D8"  Part="1" 
+F 0 "D8" H 6900 3617 50  0000 C CNN
+F 1 "D" H 6900 3526 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6900 3400 50  0001 C CNN
+F 3 "~" H 6900 3400 50  0001 C CNN
+	1    6900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF1714
+P 6900 3900
+AR Path="/5FDF1714" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF1714" Ref="D12"  Part="1" 
+F 0 "D12" H 6900 4117 50  0000 C CNN
+F 1 "D" H 6900 4026 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6900 3900 50  0001 C CNN
+F 3 "~" H 6900 3900 50  0001 C CNN
+	1    6900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF171A
+P 6900 4400
+AR Path="/5FDF171A" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF171A" Ref="D16"  Part="1" 
+F 0 "D16" H 6900 4617 50  0000 C CNN
+F 1 "D" H 6900 4526 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6900 4400 50  0001 C CNN
+F 3 "~" H 6900 4400 50  0001 C CNN
+	1    6900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FDF1720
+P 6900 4900
+AR Path="/5FDF1720" Ref="D?"  Part="1" 
+AR Path="/5FDDF609/5FDF1720" Ref="D20"  Part="1" 
+F 0 "D20" H 6900 5117 50  0000 C CNN
+F 1 "D" H 6900 5026 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6900 4900 50  0001 C CNN
+F 3 "~" H 6900 4900 50  0001 C CNN
+	1    6900 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2450 4450 2900
+Wire Wire Line
+	4450 2900 4450 3400
+Connection ~ 4450 2900
+Wire Wire Line
+	4450 3400 4450 3900
+Connection ~ 4450 3400
+Wire Wire Line
+	4450 3900 4450 4400
+Connection ~ 4450 3900
+Wire Wire Line
+	4450 4400 4450 4900
+Connection ~ 4450 4400
+Wire Wire Line
+	5500 2400 5500 2900
+Connection ~ 5500 2900
+Wire Wire Line
+	5500 2900 5500 3400
+Connection ~ 5500 3400
+Wire Wire Line
+	5500 3400 5500 3900
+Connection ~ 5500 3900
+Wire Wire Line
+	5500 3900 5500 4400
+Connection ~ 5500 4400
+Wire Wire Line
+	5500 4400 5500 4900
+Wire Wire Line
+	6500 2400 6500 2900
+Connection ~ 6500 2900
+Wire Wire Line
+	6500 2900 6500 3400
+Connection ~ 6500 3400
+Wire Wire Line
+	6500 3400 6500 3900
+Connection ~ 6500 3900
+Wire Wire Line
+	6500 3900 6500 4400
+Connection ~ 6500 4400
+Wire Wire Line
+	6500 4400 6500 4900
+Wire Wire Line
+	7450 2400 7450 2900
+Connection ~ 7450 2900
+Wire Wire Line
+	7450 2900 7450 3400
+Connection ~ 7450 3400
+Wire Wire Line
+	7450 3400 7450 3900
+Connection ~ 7450 3900
+Wire Wire Line
+	7450 3900 7450 4400
+Connection ~ 7450 4400
+Wire Wire Line
+	7450 4400 7450 4900
+Wire Wire Line
+	4800 2900 4800 3000
+Wire Wire Line
+	3450 3000 3750 3000
+Wire Wire Line
+	3750 2900 3750 3000
+Connection ~ 3750 3000
+Wire Wire Line
+	3750 3000 4800 3000
+Wire Wire Line
+	4800 3000 5800 3000
+Connection ~ 4800 3000
+Wire Wire Line
+	6750 3000 6750 2900
+Wire Wire Line
+	6750 3400 6750 3500
+Wire Wire Line
+	6750 3500 5800 3500
+Connection ~ 3750 3500
+Wire Wire Line
+	3750 3500 3450 3500
+Wire Wire Line
+	4800 3400 4800 3500
+Connection ~ 4800 3500
+Wire Wire Line
+	4800 3500 3750 3500
+Wire Wire Line
+	5800 3400 5800 3500
+Connection ~ 5800 3500
+Wire Wire Line
+	5800 3500 4800 3500
+Wire Wire Line
+	6750 3900 6750 4000
+Wire Wire Line
+	6750 4000 5800 4000
+Wire Wire Line
+	3750 3900 3750 4000
+Connection ~ 3750 4000
+Wire Wire Line
+	3750 4000 3450 4000
+Wire Wire Line
+	4800 3900 4800 4000
+Connection ~ 4800 4000
+Wire Wire Line
+	4800 4000 3750 4000
+Wire Wire Line
+	5800 3900 5800 4000
+Connection ~ 5800 4000
+Wire Wire Line
+	5800 4000 4800 4000
+Wire Wire Line
+	6750 4400 6750 4500
+Wire Wire Line
+	6750 4500 5800 4500
+Wire Wire Line
+	3750 4400 3750 4500
+Connection ~ 3750 4500
+Wire Wire Line
+	3750 4500 3450 4500
+Wire Wire Line
+	4800 4400 4800 4500
+Connection ~ 4800 4500
+Wire Wire Line
+	4800 4500 3750 4500
+Wire Wire Line
+	5800 4400 5800 4500
+Connection ~ 5800 4500
+Wire Wire Line
+	5800 4500 4800 4500
+Wire Wire Line
+	6750 4900 6750 5000
+Wire Wire Line
+	6750 5000 5800 5000
+Wire Wire Line
+	3750 4900 3750 5000
+Connection ~ 3750 5000
+Wire Wire Line
+	3750 5000 3450 5000
+Wire Wire Line
+	4800 4900 4800 5000
+Connection ~ 4800 5000
+Wire Wire Line
+	4800 5000 3750 5000
+Wire Wire Line
+	5800 4900 5800 5000
+Connection ~ 5800 5000
+Wire Wire Line
+	5800 5000 4800 5000
+Wire Wire Line
+	3750 3400 3750 3500
+Wire Wire Line
+	5800 2900 5800 3000
+Connection ~ 5800 3000
+Wire Wire Line
+	5800 3000 6750 3000
+Text HLabel 4450 2450 1    50   Input ~ 0
+Col1
+Text HLabel 5500 2400 1    50   Input ~ 0
+Col2
+Text HLabel 6500 2400 1    50   Input ~ 0
+Col3
+Text HLabel 7450 2400 1    50   Input ~ 0
+Col4
+Text HLabel 3450 3000 0    50   Input ~ 0
+Row1
+Text HLabel 3450 3500 0    50   Input ~ 0
+Row2
+Text HLabel 3450 4000 0    50   Input ~ 0
+Row3
+Text HLabel 3450 4500 0    50   Input ~ 0
+Row4
+Text HLabel 3450 5000 0    50   Input ~ 0
+Row5
+$EndSCHEMATC
