@@ -1150,4 +1150,6 @@ F 3 "" H 8400 1750 50  0001 C CNN
 	1    8400 1750
 	1    0    0    -1  
 $EndComp
+Text Notes 3600 3400 0    50   ~ 0
+TODO: VDDA needs to be connected. \nNeed to fix this with a jumper wire on PCB
 $EndSCHEMATC
