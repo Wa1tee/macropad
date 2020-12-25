@@ -7,3 +7,8 @@ WORK IN PROGRESS! See known issues.
  * VDDA and VSSA need to be connected to 3V3 and GND respectively
  * USB shield should be connected to GND
  * STM32 power traces are a bit thin
+ 
+**ToDo:**
+ * Fix the design issues
+ * Write some software to actually use the first version
+ * Maybe add LEDs coz they're cool
