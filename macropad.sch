@@ -13,7 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 6900 2750
 Wire Notes Line
 	11100 3150 11100 850 
 Wire Notes Line
@@ -127,9 +126,6 @@ Wire Wire Line
 	8650 1550 8650 1650
 Wire Wire Line
 	8650 1250 8650 1350
-Connection ~ 8650 1250
-Wire Wire Line
-	8400 1250 8650 1250
 $Comp
 L Device:C_Small C1
 U 1 1 5FD259BB
@@ -144,12 +140,12 @@ $EndComp
 $Comp
 L Device:Ferrite_Bead FB1
 U 1 1 5FD259C1
-P 8250 1250
-F 0 "FB1" V 7976 1250 50  0000 C CNN
-F 1 "100R" V 8067 1250 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8180 1250 50  0001 C CNN
-F 3 "~" H 8250 1250 50  0001 C CNN
-	1    8250 1250
+P 8500 1250
+F 0 "FB1" V 8226 1250 50  0000 C CNN
+F 1 "100R" V 8317 1250 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8430 1250 50  0001 C CNN
+F 3 "~" H 8500 1250 50  0001 C CNN
+	1    8500 1250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -165,11 +161,11 @@ F 3 "" H 9000 2050 50  0001 C CNN
 $EndComp
 Text GLabel 8600 2550 0    50   Input ~ 0
 USB_D+
-Text GLabel 7800 1950 2    50   Input ~ 0
+Text GLabel 7700 1950 2    50   Input ~ 0
 USB_D+
 Text GLabel 9400 2550 2    50   Input ~ 0
 USB_D-
-Text GLabel 7800 1750 2    50   Input ~ 0
+Text GLabel 7700 1750 2    50   Input ~ 0
 USB_D-
 $Comp
 L power:GND #PWR010
@@ -189,12 +185,12 @@ USBD-
 $Comp
 L power:GND #PWR09
 U 1 1 5FD259D9
-P 7200 2750
-F 0 "#PWR09" H 7200 2500 50  0001 C CNN
-F 1 "GND" H 7205 2577 50  0000 C CNN
-F 2 "" H 7200 2750 50  0001 C CNN
-F 3 "" H 7200 2750 50  0001 C CNN
-	1    7200 2750
+P 7100 2750
+F 0 "#PWR09" H 7100 2500 50  0001 C CNN
+F 1 "GND" H 7105 2577 50  0000 C CNN
+F 2 "" H 7100 2750 50  0001 C CNN
+F 3 "" H 7100 2750 50  0001 C CNN
+	1    7100 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -226,16 +222,12 @@ Wire Wire Line
 	10000 1150 10000 1250
 Wire Wire Line
 	8650 1250 9050 1250
-Text GLabel 7800 1850 2    50   Input ~ 0
+Text GLabel 7700 1850 2    50   Input ~ 0
 USB_D-
-Text GLabel 7800 2050 2    50   Input ~ 0
+Text GLabel 7700 2050 2    50   Input ~ 0
 USB_D+
-NoConn ~ 7800 2350
-NoConn ~ 7800 2450
-Wire Wire Line
-	7800 1250 7900 1250
-Wire Wire Line
-	7900 1250 8100 1250
+NoConn ~ 7700 2350
+NoConn ~ 7700 2450
 Connection ~ 7900 1250
 Wire Wire Line
 	7900 1150 7900 1250
@@ -255,60 +247,39 @@ Wire Notes Line
 Wire Notes Line
 	9650 4450 9650 3400
 Wire Notes Line
-	11150 3400 11150 4450
-Wire Notes Line
-	9650 3400 11150 3400
-Wire Notes Line
-	9650 4450 11150 4450
-NoConn ~ 10200 4200
-NoConn ~ 10700 3900
-Text GLabel 10200 4100 0    50   Input ~ 0
+	10700 3400 10700 4450
+Text GLabel 10100 3650 2    50   Input ~ 0
 SWCLK
-Text GLabel 10700 4200 2    50   Input ~ 0
+Text GLabel 10100 4150 2    50   Input ~ 0
 SWO
-Text GLabel 10700 3800 2    50   Input ~ 0
+Text GLabel 10100 4050 2    50   Input ~ 0
 NRST
-Wire Wire Line
-	10200 4000 9800 4000
 $Comp
 L power:GND #PWR017
 U 1 1 5FD25A0E
-P 9800 4000
-F 0 "#PWR017" H 9800 3750 50  0001 C CNN
-F 1 "GND" H 9805 3827 50  0000 C CNN
-F 2 "" H 9800 4000 50  0001 C CNN
-F 3 "" H 9800 4000 50  0001 C CNN
-	1    9800 4000
+P 10500 3950
+F 0 "#PWR017" H 10500 3700 50  0001 C CNN
+F 1 "GND" H 10505 3777 50  0000 C CNN
+F 2 "" H 10500 3950 50  0001 C CNN
+F 3 "" H 10500 3950 50  0001 C CNN
+	1    10500 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 10700 4100 2    50   Input ~ 0
+Text GLabel 10100 4250 2    50   Input ~ 0
 UART_RX
-Text GLabel 10700 4000 2    50   Input ~ 0
+Text GLabel 10100 4350 2    50   Input ~ 0
 UART_TX
-Text GLabel 10200 3900 0    50   Input ~ 0
+Text GLabel 10100 3850 2    50   Input ~ 0
 SWDIO
-Wire Wire Line
-	9800 3800 10200 3800
 $Comp
 L power:+3.3V #PWR015
 U 1 1 5FD25A18
-P 9800 3800
-F 0 "#PWR015" H 9800 3650 50  0001 C CNN
-F 1 "+3.3V" H 9815 3973 50  0000 C CNN
-F 2 "" H 9800 3800 50  0001 C CNN
-F 3 "" H 9800 3800 50  0001 C CNN
-	1    9800 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise J2
-U 1 1 5FD25A1E
-P 10400 4000
-F 0 "J2" H 10450 4417 50  0000 C CNN
-F 1 "TC2050-IDC" H 10450 4326 50  0000 C CNN
-F 2 "Connector:Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical" H 10400 4000 50  0001 C CNN
-F 3 "~" H 10400 4000 50  0001 C CNN
-	1    10400 4000
+P 10500 3750
+F 0 "#PWR015" H 10500 3600 50  0001 C CNN
+F 1 "+3.3V" H 10515 3923 50  0000 C CNN
+F 2 "" H 10500 3750 50  0001 C CNN
+F 3 "" H 10500 3750 50  0001 C CNN
+	1    10500 3750
 	1    0    0    -1  
 $EndComp
 Text Notes 9650 3350 0    62   ~ 12
@@ -353,21 +324,21 @@ Text GLabel 4100 5950 2    50   Input ~ 0
 SPI_MISO
 Text GLabel 4100 6050 2    50   Input ~ 0
 SPI_MOSI
-Text GLabel 4100 4750 2    50   Input ~ 0
+Text GLabel 4100 5650 2    50   Input ~ 0
 Row1
-Text GLabel 4100 4650 2    50   Input ~ 0
+Text GLabel 4100 5550 2    50   Input ~ 0
 Row2
-Text GLabel 2700 6450 0    50   Input ~ 0
+Text GLabel 4100 4450 2    50   Input ~ 0
 Row3
-Text GLabel 2700 6350 0    50   Input ~ 0
+Text GLabel 4100 4350 2    50   Input ~ 0
 Row4
-Text GLabel 4100 5550 2    50   Output ~ 0
+Text GLabel 2700 6850 0    50   Output ~ 0
 Col1
-Text GLabel 4100 5650 2    50   Output ~ 0
+Text GLabel 2700 5550 0    50   Output ~ 0
 Col2
-Text GLabel 4100 5750 2    50   Output ~ 0
+Text GLabel 2700 5650 0    50   Output ~ 0
 Col3
-Text GLabel 4100 6550 2    50   Output ~ 0
+Text GLabel 2700 5750 0    50   Output ~ 0
 Col4
 Text GLabel 2700 5350 0    50   Input ~ 0
 LCD_CS
@@ -631,7 +602,7 @@ Wire Wire Line
 	4700 4750 4700 5050
 Text GLabel 2700 3850 0    50   Input ~ 0
 NRST
-Text GLabel 2700 6250 0    50   Input ~ 0
+Text GLabel 4100 4250 2    50   Input ~ 0
 Row5
 Wire Notes Line
 	5550 7750 5550 2300
@@ -643,8 +614,6 @@ Wire Notes Line
 	550  7750 5550 7750
 Text Notes 550  2250 0    62   ~ 12
 MCU
-NoConn ~ 3200 3650
-NoConn ~ 3700 3650
 Text GLabel 4100 6450 2    50   Input ~ 0
 TS_BSY
 Text GLabel 4100 4150 2    50   Output ~ 0
@@ -712,20 +681,16 @@ Text GLabel 2700 6650 0    50   Input ~ 0
 UART_RX
 Text GLabel 4100 3950 2    50   Input ~ 0
 SWO
-NoConn ~ 5350 3950
 NoConn ~ 4100 4850
 NoConn ~ 4100 6150
-NoConn ~ 4100 4250
 NoConn ~ 2700 7050
 NoConn ~ 4100 4550
 NoConn ~ 2700 5150
-NoConn ~ 3600 7250
 NoConn ~ 4100 6950
 NoConn ~ 4100 6850
 NoConn ~ 4100 6750
 NoConn ~ 4100 6650
 NoConn ~ 4100 6250
-NoConn ~ 5350 4050
 Text Notes 700  7650 0    50   ~ 0
 Cl = 2 * (CLOAD_CRYSTAL - CPARASITIC)
 $Sheet
@@ -743,289 +708,128 @@ F8 "Row3" I R 4600 1400 50
 F9 "Row4" I R 4600 1550 50 
 F10 "Row5" I R 4600 1700 50 
 $EndSheet
-Text GLabel 9050 4100 1    50   Input ~ 0
+Text GLabel 6500 4050 2    50   Input ~ 0
 LCD_RST
-Text GLabel 8950 4100 1    50   Input ~ 0
+Text GLabel 6500 4150 2    50   Input ~ 0
 LCD_DC
-Text GLabel 8850 4100 1    50   Input ~ 0
+Text GLabel 6500 4250 2    50   Input ~ 0
 LCD_CS
-Text GLabel 8750 4100 1    50   Input ~ 0
+Text GLabel 6500 4350 2    50   Input ~ 0
 SPI_SCK
-Text GLabel 8650 4100 1    50   Input ~ 0
+Text GLabel 6500 4450 2    50   Input ~ 0
 SPI_MOSI
-$Comp
-L Connector:Conn_01x12_Male J?
-U 1 1 5FE38D4F
-P 8450 4300
-AR Path="/5FD67879/5FE38D4F" Ref="J?"  Part="1" 
-AR Path="/5FE38D4F" Ref="J3"  Part="1" 
-F 0 "J3" V 8377 4228 50  0000 C CNN
-F 1 "CONN_LCD" V 8286 4228 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 8450 4300 50  0001 C CNN
-F 3 "~" H 8450 4300 50  0001 C CNN
-	1    8450 4300
-	0    -1   -1   0   
-$EndComp
-Text GLabel 8550 4100 1    50   Input ~ 0
+Text GLabel 6500 4550 2    50   Input ~ 0
 SPI_MISO
-Text GLabel 8450 4100 1    50   Input ~ 0
+Text GLabel 6500 4650 2    50   Input ~ 0
 TS_CS
-Text GLabel 8350 4100 1    50   Input ~ 0
+Text GLabel 6500 4750 2    50   Input ~ 0
 TS_BSY
-Text GLabel 8050 4100 1    50   Input ~ 0
+Text GLabel 6500 5050 2    50   Input ~ 0
 LCD_LED
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5FE38D59
-P 8150 3750
+P 6950 4950
 AR Path="/5FD67879/5FE38D59" Ref="#PWR?"  Part="1" 
 AR Path="/5FE38D59" Ref="#PWR014"  Part="1" 
-F 0 "#PWR014" H 8150 3600 50  0001 C CNN
-F 1 "+3.3V" H 8165 3923 50  0000 C CNN
-F 2 "" H 8150 3750 50  0001 C CNN
-F 3 "" H 8150 3750 50  0001 C CNN
-	1    8150 3750
+F 0 "#PWR014" H 6950 4800 50  0001 C CNN
+F 1 "+3.3V" H 6965 5123 50  0000 C CNN
+F 2 "" H 6950 4950 50  0001 C CNN
+F 3 "" H 6950 4950 50  0001 C CNN
+	1    6950 4950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FE38D5F
-P 7850 3950
+P 6500 5150
 AR Path="/5FD67879/5FE38D5F" Ref="#PWR?"  Part="1" 
 AR Path="/5FE38D5F" Ref="#PWR016"  Part="1" 
-F 0 "#PWR016" H 7850 3700 50  0001 C CNN
-F 1 "GND" H 7855 3777 50  0000 C CNN
-F 2 "" H 7850 3950 50  0001 C CNN
-F 3 "" H 7850 3950 50  0001 C CNN
-	1    7850 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7850 3950 7950 3950
-Wire Wire Line
-	7950 3950 7950 4100
-Wire Wire Line
-	8150 3750 8150 4100
-Wire Notes Line
-	7650 3400 7650 4600
-Wire Notes Line
-	7650 4600 9400 4600
-Wire Notes Line
-	9400 4600 9400 3400
-Wire Notes Line
-	9400 3400 7650 3400
-Text Notes 7650 3350 0    62   ~ 12
-LCD Connection
-$Comp
-L Mechanical:MountingHole_Pad H?
-U 1 1 5FE47164
-P 6100 5300
-AR Path="/5FD67879/5FE47164" Ref="H?"  Part="1" 
-AR Path="/5FE47164" Ref="H1"  Part="1" 
-F 0 "H1" H 6200 5349 50  0000 L CNN
-F 1 "MountingHole_Pad" H 6200 5258 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6100 5300 50  0001 C CNN
-F 3 "~" H 6100 5300 50  0001 C CNN
-	1    6100 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H?
-U 1 1 5FE4716A
-P 7050 6200
-AR Path="/5FD67879/5FE4716A" Ref="H?"  Part="1" 
-AR Path="/5FE4716A" Ref="H11"  Part="1" 
-F 0 "H11" H 7150 6249 50  0000 L CNN
-F 1 "MountingHole_Pad" H 7150 6158 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7050 6200 50  0001 C CNN
-F 3 "~" H 7050 6200 50  0001 C CNN
-	1    7050 6200
+F 0 "#PWR016" H 6500 4900 50  0001 C CNN
+F 1 "GND" H 6505 4977 50  0000 C CNN
+F 2 "" H 6500 5150 50  0001 C CNN
+F 3 "" H 6500 5150 50  0001 C CNN
+	1    6500 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 5FE47170
-P 7050 5900
+P 7750 5700
 AR Path="/5FD67879/5FE47170" Ref="H?"  Part="1" 
-AR Path="/5FE47170" Ref="H8"  Part="1" 
-F 0 "H8" H 7150 5949 50  0000 L CNN
-F 1 "MountingHole_Pad" H 7150 5858 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7050 5900 50  0001 C CNN
-F 3 "~" H 7050 5900 50  0001 C CNN
-	1    7050 5900
+AR Path="/5FE47170" Ref="H4"  Part="1" 
+F 0 "H4" H 7850 5749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7850 5658 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7750 5700 50  0001 C CNN
+F 3 "~" H 7750 5700 50  0001 C CNN
+	1    7750 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 5FE47176
-P 7050 5600
+P 7750 5400
 AR Path="/5FD67879/5FE47176" Ref="H?"  Part="1" 
-AR Path="/5FE47176" Ref="H5"  Part="1" 
-F 0 "H5" H 7150 5649 50  0000 L CNN
-F 1 "MountingHole_Pad" H 7150 5558 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7050 5600 50  0001 C CNN
-F 3 "~" H 7050 5600 50  0001 C CNN
-	1    7050 5600
+AR Path="/5FE47176" Ref="H1"  Part="1" 
+F 0 "H1" H 7850 5449 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7850 5358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7750 5400 50  0001 C CNN
+F 3 "~" H 7750 5400 50  0001 C CNN
+	1    7750 5400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole_Pad H?
-U 1 1 5FE4717C
-P 7050 5300
-AR Path="/5FD67879/5FE4717C" Ref="H?"  Part="1" 
-AR Path="/5FE4717C" Ref="H2"  Part="1" 
-F 0 "H2" H 7150 5349 50  0000 L CNN
-F 1 "MountingHole_Pad" H 7150 5258 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 7050 5300 50  0001 C CNN
-F 3 "~" H 7050 5300 50  0001 C CNN
-	1    7050 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 5400 6850 5400
-Wire Wire Line
-	7050 5700 6850 5700
-Wire Wire Line
-	6850 5700 6850 5400
-Connection ~ 6850 5400
-Wire Wire Line
-	6850 5400 6100 5400
-Wire Wire Line
-	7050 6000 6850 6000
-Wire Wire Line
-	6850 6000 6850 5700
-Connection ~ 6850 5700
-Wire Wire Line
-	7050 6300 6950 6300
-Wire Wire Line
-	6850 6300 6850 6000
-Connection ~ 6850 6000
 $Comp
 L power:GND #PWR?
 U 1 1 5FE4718D
-P 6950 6300
+P 8700 5800
 AR Path="/5FD67879/5FE4718D" Ref="#PWR?"  Part="1" 
 AR Path="/5FE4718D" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 6950 6050 50  0001 C CNN
-F 1 "GND" H 6955 6127 50  0000 C CNN
-F 2 "" H 6950 6300 50  0001 C CNN
-F 3 "" H 6950 6300 50  0001 C CNN
-	1    6950 6300
-	1    0    0    -1  
-$EndComp
-Connection ~ 6950 6300
-Wire Wire Line
-	6950 6300 6850 6300
-$Comp
-L Mechanical:MountingHole_Pad H?
-U 1 1 5FE47195
-P 6100 5600
-AR Path="/5FD67879/5FE47195" Ref="H?"  Part="1" 
-AR Path="/5FE47195" Ref="H4"  Part="1" 
-F 0 "H4" H 6200 5649 50  0000 L CNN
-F 1 "MountingHole_Pad" H 6200 5558 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6100 5600 50  0001 C CNN
-F 3 "~" H 6100 5600 50  0001 C CNN
-	1    6100 5600
+F 0 "#PWR020" H 8700 5550 50  0001 C CNN
+F 1 "GND" H 8705 5627 50  0000 C CNN
+F 2 "" H 8700 5800 50  0001 C CNN
+F 3 "" H 8700 5800 50  0001 C CNN
+	1    8700 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 5FE4719B
-P 6100 5900
+P 9600 5400
 AR Path="/5FD67879/5FE4719B" Ref="H?"  Part="1" 
-AR Path="/5FE4719B" Ref="H7"  Part="1" 
-F 0 "H7" H 6200 5949 50  0000 L CNN
-F 1 "MountingHole_Pad" H 6200 5858 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 6100 5900 50  0001 C CNN
-F 3 "~" H 6100 5900 50  0001 C CNN
-	1    6100 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H?
-U 1 1 5FE471A1
-P 6100 6200
-AR Path="/5FD67879/5FE471A1" Ref="H?"  Part="1" 
-AR Path="/5FE471A1" Ref="H10"  Part="1" 
-F 0 "H10" H 6200 6249 50  0000 L CNN
-F 1 "MountingHole_Pad" H 6200 6158 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 6100 6200 50  0001 C CNN
-F 3 "~" H 6100 6200 50  0001 C CNN
-	1    6100 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6850 6300 6100 6300
-Connection ~ 6850 6300
-Wire Wire Line
-	6850 6000 6100 6000
-Wire Wire Line
-	6850 5700 6100 5700
-$Comp
-L Mechanical:MountingHole_Pad H?
-U 1 1 5FE471AB
-P 7950 6200
-AR Path="/5FD67879/5FE471AB" Ref="H?"  Part="1" 
-AR Path="/5FE471AB" Ref="H12"  Part="1" 
-F 0 "H12" H 8050 6249 50  0000 L CNN
-F 1 "MountingHole_Pad" H 8050 6158 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7950 6200 50  0001 C CNN
-F 3 "~" H 7950 6200 50  0001 C CNN
-	1    7950 6200
+AR Path="/5FE4719B" Ref="H3"  Part="1" 
+F 0 "H3" H 9700 5449 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9700 5358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 9600 5400 50  0001 C CNN
+F 3 "~" H 9600 5400 50  0001 C CNN
+	1    9600 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 5FE471B1
-P 7950 5900
+P 9600 5700
 AR Path="/5FD67879/5FE471B1" Ref="H?"  Part="1" 
-AR Path="/5FE471B1" Ref="H9"  Part="1" 
-F 0 "H9" H 8050 5949 50  0000 L CNN
-F 1 "MountingHole_Pad" H 8050 5858 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7950 5900 50  0001 C CNN
-F 3 "~" H 7950 5900 50  0001 C CNN
-	1    7950 5900
+AR Path="/5FE471B1" Ref="H5"  Part="1" 
+F 0 "H5" H 9700 5749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9700 5658 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 9600 5700 50  0001 C CNN
+F 3 "~" H 9600 5700 50  0001 C CNN
+	1    9600 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 5FE471B7
-P 7950 5600
+P 8700 5400
 AR Path="/5FD67879/5FE471B7" Ref="H?"  Part="1" 
-AR Path="/5FE471B7" Ref="H6"  Part="1" 
-F 0 "H6" H 8050 5649 50  0000 L CNN
-F 1 "MountingHole_Pad" H 8050 5558 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7950 5600 50  0001 C CNN
-F 3 "~" H 7950 5600 50  0001 C CNN
-	1    7950 5600
+AR Path="/5FE471B7" Ref="H2"  Part="1" 
+F 0 "H2" H 8800 5449 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8800 5358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 8700 5400 50  0001 C CNN
+F 3 "~" H 8700 5400 50  0001 C CNN
+	1    8700 5400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole_Pad H?
-U 1 1 5FE471BD
-P 7950 5300
-AR Path="/5FD67879/5FE471BD" Ref="H?"  Part="1" 
-AR Path="/5FE471BD" Ref="H3"  Part="1" 
-F 0 "H3" H 8050 5349 50  0000 L CNN
-F 1 "MountingHole_Pad" H 8050 5258 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 7950 5300 50  0001 C CNN
-F 3 "~" H 7950 5300 50  0001 C CNN
-	1    7950 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 5400 7950 5400
-Connection ~ 7050 5400
-Wire Wire Line
-	7050 5700 7950 5700
-Connection ~ 7050 5700
-Wire Wire Line
-	7050 6000 7950 6000
-Connection ~ 7050 6000
-Wire Wire Line
-	7950 6300 7050 6300
-Connection ~ 7050 6300
 Text GLabel 2400 900  0    50   Input ~ 0
 Col1
 Text GLabel 2400 1050 0    50   Input ~ 0
@@ -1044,21 +848,16 @@ Text GLabel 4600 1550 2    50   Input ~ 0
 Row4
 Text GLabel 4600 1700 2    50   Input ~ 0
 Row5
-NoConn ~ 2700 5750
 NoConn ~ 2700 5850
-NoConn ~ 4100 4450
 NoConn ~ 4100 7050
 NoConn ~ 2700 6050
 NoConn ~ 2700 5950
 NoConn ~ 4100 3850
 NoConn ~ 2700 6150
-NoConn ~ 4100 4350
 Text GLabel 4100 4050 2    50   Input ~ 0
 TS_IQR
-Text GLabel 8250 4100 1    50   Input ~ 0
+Text GLabel 6500 4850 2    50   Input ~ 0
 TS_IQR
-NoConn ~ 2700 5650
-NoConn ~ 2700 5550
 $Comp
 L MCU_ST_STM32F3:STM32F303RCTx U?
 U 1 1 5FDD556C
@@ -1092,64 +891,173 @@ Wire Wire Line
 $Comp
 L Device:R_Small R4
 U 1 1 5FD94268
-P 8250 1650
-F 0 "R4" H 8309 1696 50  0000 L CNN
-F 1 "5k1" H 8309 1605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8250 1650 50  0001 C CNN
-F 3 "~" H 8250 1650 50  0001 C CNN
-	1    8250 1650
-	1    0    0    -1  
+P 7800 1550
+F 0 "R4" V 7900 1450 50  0000 L CNN
+F 1 "5k1" V 7900 1550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7800 1550 50  0001 C CNN
+F 3 "~" H 7800 1550 50  0001 C CNN
+	1    7800 1550
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R5
 U 1 1 5FD94D4B
-P 8400 1650
-F 0 "R5" H 8459 1696 50  0000 L CNN
-F 1 "5k1" H 8459 1605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 1650 50  0001 C CNN
-F 3 "~" H 8400 1650 50  0001 C CNN
-	1    8400 1650
-	1    0    0    -1  
+P 7800 1450
+F 0 "R5" V 7900 1450 50  0000 L CNN
+F 1 "5k1" V 7900 1300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7800 1450 50  0001 C CNN
+F 3 "~" H 7800 1450 50  0001 C CNN
+	1    7800 1450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J1
 U 1 1 5FD259EF
-P 7200 1850
-F 0 "J1" H 7307 2717 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 7307 2626 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 7350 1850 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7350 1850 50  0001 C CNN
-	1    7200 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7800 1450 8400 1450
-Wire Wire Line
-	8400 1450 8400 1550
-Wire Wire Line
-	8250 1550 7800 1550
-$Comp
-L power:GND #PWR023
-U 1 1 5FD9DE4B
-P 8250 1750
-F 0 "#PWR023" H 8250 1500 50  0001 C CNN
-F 1 "GND" H 8255 1577 50  0000 C CNN
-F 2 "" H 8250 1750 50  0001 C CNN
-F 3 "" H 8250 1750 50  0001 C CNN
-	1    8250 1750
+P 7100 1850
+F 0 "J1" H 7207 2717 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 7207 2626 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 7250 1850 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7250 1850 50  0001 C CNN
+	1    7100 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR024
 U 1 1 5FD9E1C0
-P 8400 1750
-F 0 "#PWR024" H 8400 1500 50  0001 C CNN
-F 1 "GND" H 8405 1577 50  0000 C CNN
-F 2 "" H 8400 1750 50  0001 C CNN
-F 3 "" H 8400 1750 50  0001 C CNN
-	1    8400 1750
+P 8150 1600
+F 0 "#PWR024" H 8150 1350 50  0001 C CNN
+F 1 "GND" H 8155 1427 50  0000 C CNN
+F 2 "" H 8150 1600 50  0001 C CNN
+F 3 "" H 8150 1600 50  0001 C CNN
+	1    8150 1600
 	1    0    0    -1  
 $EndComp
 Text Notes 3600 3400 0    50   ~ 0
 TODO: VDDA needs to be connected. \nNeed to fix this with a jumper wire on PCB
+Wire Wire Line
+	3600 7250 3500 7250
+Connection ~ 3500 7250
+Wire Wire Line
+	3700 3650 3600 3650
+Connection ~ 3600 3650
+Wire Wire Line
+	3300 3650 3200 3650
+$Comp
+L Device:C_Small C?
+U 1 1 5FEB36FD
+P 4300 2850
+AR Path="/5FD67879/5FEB36FD" Ref="C?"  Part="1" 
+AR Path="/5FEB36FD" Ref="C10"  Part="1" 
+F 0 "C10" H 4392 2896 50  0000 L CNN
+F 1 "100n" H 4392 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4300 2850 50  0001 C CNN
+F 3 "~" H 4300 2850 50  0001 C CNN
+	1    4300 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2750 4300 2750
+Connection ~ 3900 2750
+Wire Wire Line
+	4300 2950 3900 2950
+Connection ~ 3900 2950
+Wire Wire Line
+	7700 1250 7900 1250
+Wire Wire Line
+	6800 2750 7100 2750
+Connection ~ 7100 2750
+Wire Wire Line
+	7900 1450 8150 1450
+Wire Wire Line
+	8150 1450 8150 1550
+Wire Wire Line
+	7900 1550 8150 1550
+Connection ~ 8150 1550
+Wire Wire Line
+	8150 1550 8150 1600
+Connection ~ 8650 1250
+$Comp
+L Device:C_Small C12
+U 1 1 5FEE0273
+P 8150 1350
+F 0 "C12" H 8242 1396 50  0000 L CNN
+F 1 "1u" H 8242 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8150 1350 50  0001 C CNN
+F 3 "~" H 8150 1350 50  0001 C CNN
+	1    8150 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 8150 1450
+Wire Wire Line
+	7900 1250 8150 1250
+Wire Wire Line
+	8150 1250 8350 1250
+Connection ~ 8150 1250
+$Comp
+L macropad:Wemos_TFT_2.4" U4
+U 1 1 5FF0261A
+P 6400 4600
+F 0 "U4" H 6283 5415 50  0000 C CNN
+F 1 "Wemos_TFT_2.4\"" H 6283 5324 50  0000 C CNN
+F 2 "macropad:Lolin_TFT_2.4" H 6450 3700 50  0001 C CNN
+F 3 "" H 6450 3700 50  0001 C CNN
+	1    6400 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4950 6950 4950
+Wire Notes Line
+	5850 3650 7150 3650
+Wire Notes Line
+	7150 3650 7150 5400
+Wire Notes Line
+	7150 5400 5850 5400
+Wire Notes Line
+	5850 5400 5850 3650
+Text Notes 5850 3600 0    50   ~ 10
+LCD
+Wire Notes Line
+	7600 4900 10450 4900
+Wire Notes Line
+	10450 4900 10450 6400
+Wire Notes Line
+	10450 6400 7600 6400
+Wire Notes Line
+	7600 6400 7600 4900
+$Comp
+L Connector:Conn_01x08_Male J2
+U 1 1 5FF85E52
+P 9900 3950
+F 0 "J2" H 10008 4431 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 10008 4340 50  0000 C CNN
+F 2 "macropad:PinHeader_1x08_P2.54mm_Vertical" H 9900 3950 50  0001 C CNN
+F 3 "~" H 9900 3950 50  0001 C CNN
+	1    9900 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 3750 10500 3750
+Wire Wire Line
+	10100 3950 10500 3950
+Wire Notes Line
+	9650 3400 10700 3400
+Wire Notes Line
+	10700 4450 9650 4450
+Wire Wire Line
+	8700 5500 9600 5500
+Connection ~ 8700 5500
+Wire Wire Line
+	7750 5500 8700 5500
+Wire Wire Line
+	7750 5800 8700 5800
+Connection ~ 8700 5800
+Wire Wire Line
+	8700 5800 9600 5800
+NoConn ~ 2700 6250
+NoConn ~ 2700 6350
+NoConn ~ 2700 6450
+NoConn ~ 4100 6550
+NoConn ~ 4100 4750
+NoConn ~ 4100 4650
+NoConn ~ 2700 6950
 $EndSCHEMATC
